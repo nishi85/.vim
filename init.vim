@@ -268,6 +268,6 @@ augroup END
 " }}}
 " colorscheme {{{
 set background=dark
-colorscheme solarized8
-exe 'doautocmd ColorScheme' g:colors_name
+" colorscheme solarized8
+" exe 'doautocmd ColorScheme' g:colors_name
 " }}}
