@@ -161,7 +161,9 @@ set foldtext=foldtext#foldtext()
 set guicursor=n-v-c-sm:block,i-ci-ve:ver25,r-cr-o:hor20,a:blinkwait700-blinkoff400-blinkon250
 set hidden
 set ignorecase
-set inccommand=nosplit
+if has('neovim')
+  set inccommand=nosplit
+endif
 set mouse=a
 set nowrap
 set path=**
