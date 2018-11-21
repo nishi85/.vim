@@ -164,7 +164,7 @@ set ignorecase
 if has('neovim')
   set inccommand=nosplit
 endif
-set mouse=a
+set mouse=
 set nowrap
 set path=**
 set pumheight=13
